@@ -308,6 +308,8 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 > Populate these sections with actual images from `images/` as they become available.
 
 ### Mechanism
+<img width="270" height="293" alt="97e282c3-8349-48e8-aa70-4f13a17cdd68" src="https://github.com/user-attachments/assets/584ca61c-f027-4062-bd98-6e8691f7f527" />
+
 `TODO: insert photo of the fabricated four-bar mechanism`
 
 ### Experimental Setup
