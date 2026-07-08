@@ -13,7 +13,7 @@ The objective of this project is to synthesize linkage dimensions that satisfy s
 * **`kinematic_analysis.m`**: The primary computational model. It calculates the theoretical position (using the Diagonal Method) and the angular and linear velocities of the mechanism across its full rotation.
 * **`ME206_Project_Report.pdf`**: The comprehensive project document detailing theoretical derivations, physical fabrication (MDF links with precision bearings), experimental setup, and analysis of numerical differentiation discrepancies.
 
-## 📐 Mechanism Specifications & Grashof's Law
+## Mechanism Specifications & Grashof's Law
 The mechanism was synthesized with the following axis-to-axis dimensions:
 * **Ground Link (Frame, L1):** 13.5142 cm
 * **Crank Link (Input, L2):** 10.0 cm
@@ -25,12 +25,12 @@ For a continuous crank-rocker configuration, the sum of the shortest and longest
 * `10.0 + 20.0 <= 16.8117 + 13.5142` 
 * `30.0 <= 30.326` (Condition Satisfied)
 
-## 🔬 Kinematic Analysis Methodology
+## Kinematic Analysis Methodology
 1. **Position Analysis:** Resolved analytically using the Diagonal Method to determine unknown coupler and rocker angles without numerical instability.
 2. **Velocity Analysis:** Derived by differentiating the fundamental Vector Loop Closure equation with respect to time.
 3. **Experimental Validation:** The physical prototype was driven by a constant 12V DC motor. 240fps video footage was processed to extract the real-world instantaneous linear velocity of the coupler's Center of Mass (COM), achieving error margins as low as 0.6% during stable acceleration phases.
 
-## 🚀 How to Run the Code
+## How to Run the Code
 1. Clone this repository to your local machine.
 2. Open **MATLAB**.
 3. Run `dimensional_synthesis.m` to view the numerical resolution of the link lengths.
