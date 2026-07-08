@@ -7,8 +7,8 @@
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023%2B-orange?logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
-[![GitHub Stars](https://img.shields.io/github/stars/TODO-username/TODO-repo?style=social)](https://github.com/TODO-username/TODO-repo)
-[![Last Commit](https://img.shields.io/github/last-commit/TODO-username/TODO-repo)](https://github.com/TODO-username/TODO-repo)
+[![GitHub Stars](https://img.shields.io/github/stars/RishabhShahIITGN/crank-rocker-mechanism?style=social)](https://github.com/RishabhShahIITGN/crank-rocker-mechanism)
+[![Last Commit](https://img.shields.io/github/last-commit/RishabhShahIITGN/crank-rocker-mechanism)](https://github.com/RishabhShahIITGN/crank-rocker-mechanism)
 
 </div>
 
