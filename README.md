@@ -310,20 +310,17 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 ### Mechanism
 <img width="270" height="293" alt="97e282c3-8349-48e8-aa70-4f13a17cdd68" src="https://github.com/user-attachments/assets/584ca61c-f027-4062-bd98-6e8691f7f527" />
 
-`TODO: insert photo of the fabricated four-bar mechanism`
-
 ### Experimental Setup
-`TODO: insert photo of the full experimental rig (motor, frame, camera setup)`
-
-### MATLAB Output
-`TODO: insert console/figure output from kinematic_analysis.m`
+<img width="314" height="226" alt="image" src="https://github.com/user-attachments/assets/03abc8f6-f7b3-4913-b65b-1e69a85ac514" />
 
 ### Graphs
-`TODO: insert coupler trajectory plot, velocity-vs-time plot, and error comparison charts`
+<img width="359" height="287" alt="image" src="https://github.com/user-attachments/assets/7dd9d6ae-892b-442d-a9b0-6b824431213d" />
+<img width="355" height="302" alt="image" src="https://github.com/user-attachments/assets/d6ae31ea-dd83-4d75-90e1-b5f200fb5f3b" />
+
 
 ---
 
-## 📚 References
+## References
 
 1. Hibbeler, R. C. (2018). *Engineering Mechanics: Dynamics*. Pearson.
 2. Tracker Video Analysis and Modeling Tool — [https://physlets.org/tracker/](https://physlets.org/tracker/)
@@ -332,13 +329,13 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 We express our sincere gratitude to **Prof. K. R. Jayaprakash** and the Teaching Assistants of ME206 for their guidance throughout this project. We also acknowledge the **Tracker Development Team** for their open-source software, which was integral to the experimental analysis.
 
 ---
 
-## 👥 Authors
+## Authors
 
 | Name | Roll No. |
 |---|---|
@@ -351,17 +348,13 @@ We express our sincere gratitude to **Prof. K. R. Jayaprakash** and the Teaching
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.
 
-```
-TODO: Insert full MIT License text here, or add a LICENSE file to the repository root.
-```
-
 ---
 
-## 🏷️ Repository Description
+## Repository Description
 
 - **Suggested Repository Name:** `four-bar-crank-rocker-kinematics`
 - **GitHub Description:** *Design, synthesis, MATLAB kinematic modeling, and experimental (Tracker-based) validation of a planar four-bar crank-rocker mechanism.*
@@ -395,7 +388,7 @@ four-bar-crank-rocker-kinematics/
 
 ---
 
-## 💡 Making This Repository Stand Out
+## Making This Repository Stand Out
 
 To elevate this project for recruiters, graduate admissions committees, and engineering employers, consider:
 
