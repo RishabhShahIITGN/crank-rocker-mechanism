@@ -87,17 +87,11 @@ Project/
 ├── ME206_Project_Report.pdf      # Full project report
 ├── dimensional_synthesis.m       # MATLAB: link-length synthesis (symbolic solve)
 ├── kinematic_analysis.m          # MATLAB: position/velocity kinematic analysis
-│
-├── images/                       # TODO: mechanism photos, diagrams, plots
-├── videos/                       # TODO: raw / processed Tracker footage
-└── results/                      # TODO: exported data tables, CSVs, figures
+├── videos/                       # Working model video
 ```
-
-> **Note:** `images/`, `videos/`, and `results/` are suggested folders for organizing supplementary assets — populate them as the repository is expanded.
-
 ---
 
-## 📐 Theory
+## Theory
 
 ### Four-Bar Linkage
 A four-bar linkage consists of four rigid links connected by revolute (pin) joints, forming a single closed kinematic chain with one degree of freedom. It is one of the most fundamental mechanisms in machine design, capable of producing a wide variety of coupler-point trajectories from a single rotary input.
@@ -135,7 +129,7 @@ The absolute velocity of the coupler's center of mass (G₃) is obtained as the 
 
 ---
 
-## 🧮 Mathematical Formulation
+## Mathematical Formulation
 
 **Diagonal length (Law of Cosines, triangle O₂–A–O₄):**
 
@@ -161,7 +155,7 @@ $$\vec{v}_{G_3} = \vec{v}_A + \vec{v}_{G_3/A}, \qquad v_{G_3} = \sqrt{v_{G_{3x}}
 
 ---
 
-## 💻 MATLAB Implementation
+## MATLAB Implementation
 
 ### 1. `dimensional_synthesis.m`
 
@@ -211,7 +205,7 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 
 ---
 
-## 🔧 Experimental Setup
+## Experimental Setup
 
 - **Fabrication:** Links laser-cut from MDF sheets to precise axis-to-axis dimensions.
 - **Actuation:** 12V DC motor driving the crank at (approximately) constant angular velocity.
@@ -226,7 +220,7 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 
 ---
 
-## 📊 Results
+## Results
 
 **Design validation:** Grashof's Law was satisfied (30 ≤ 30.326), and the synthesized dimensions physically achieved the targeted 17° rocker angle at the halfway-stage configuration, confirming successful synthesis and fabrication.
 
@@ -254,7 +248,7 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 
 ---
 
-## ⚠️ Error Analysis
+## Error Analysis
 
 - **Phase Synchronization Error (primary source):** Experimental `t = 0` must align precisely with analytical `θ₂ = 0`. Even a small timing offset compares experimental and analytical velocities at *different* crank angles — devastating in regions of high angular acceleration.
 - **Zero-Crossing Singularity:** Near θ₂ = 90° and 270°, the analytical ω₃ passes through zero. Since percentage error is normalized by the analytical value, this produces mathematically undefined or extremely inflated errors even when absolute deviation is small.
@@ -263,7 +257,7 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 
 ---
 
-## 🏭 Applications
+## Applications
 
 - Educational demonstration of vector-loop kinematic synthesis and analysis
 - Prototyping platform for planar linkage-based automation mechanisms
@@ -273,7 +267,7 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - **Direct Measurement Sensors:** Mount an IMU on the coupler to obtain direct angular velocity/acceleration, bypassing differentiation noise entirely.
 - **Rotary Encoders:** Add a rotary encoder on the crank to measure θ₂ precisely in real time, solving the phase-synchronization problem by plotting velocity vs. angle instead of vs. time.
@@ -282,7 +276,7 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. Install [MATLAB](https://www.mathworks.com/products/matlab.html) (R2020b or later recommended).
 2. Clone this repository:
@@ -301,7 +295,7 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - MATLAB (base installation)
 - MATLAB **Symbolic Math Toolbox** (required for `dimensional_synthesis.m`)
@@ -309,7 +303,7 @@ $$b^2 = l'^2 - (l-r)^2 \qquad l\cos\theta + l'\cos\beta = b \qquad l\sin\theta +
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 > Populate these sections with actual images from `images/` as they become available.
 
