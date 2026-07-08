@@ -348,11 +348,10 @@ We express our sincere gratitude to **Prof. K. R. Jayaprakash** and the Teaching
 
 | Name | Roll No. |
 |---|---|
-| Dutt Parmar | 24110115 |
+| Shah Rishabh | 24110327 |
 | Sejal Sharbidre | 24110322 |
 | Dhvani Shah | 24110325 |
-| Vinit Parmar | 24110239 |
-| Prachi Jindal | 24110264 |
+| Saujas Seth | 24110319 |
 
 *Group 15 — ME 206: Statics and Dynamics, IIT Gandhinagar*
 
