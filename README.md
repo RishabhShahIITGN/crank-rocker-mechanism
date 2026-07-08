@@ -7,6 +7,8 @@
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023%2B-orange?logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
+[![GitHub Stars](https://img.shields.io/github/stars/TODO-username/TODO-repo?style=social)](https://github.com/TODO-username/TODO-repo)
+[![Last Commit](https://img.shields.io/github/last-commit/TODO-username/TODO-repo)](https://github.com/TODO-username/TODO-repo)
 
 </div>
 
@@ -87,7 +89,13 @@ Project/
 ├── ME206_Project_Report.pdf      # Full project report
 ├── dimensional_synthesis.m       # MATLAB: link-length synthesis (symbolic solve)
 ├── kinematic_analysis.m          # MATLAB: position/velocity kinematic analysis
+│
+├── images/                       # TODO: mechanism photos, diagrams, plots
+├── videos/                       # TODO: raw / processed Tracker footage
+└── results/                      # TODO: exported data tables, CSVs, figures
 ```
+
+> **Note:** `images/`, `videos/`, and `results/` are suggested folders for organizing supplementary assets — populate them as the repository is expanded.
 
 ---
 
