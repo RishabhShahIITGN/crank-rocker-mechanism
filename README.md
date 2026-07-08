@@ -7,14 +7,12 @@
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023%2B-orange?logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
-[![GitHub Stars](https://img.shields.io/github/stars/RishabhShahIITGN/crank-rocker-mechanism?style=social)](https://github.com/RishabhShahIITGN/crank-rocker-mechanism)
-[![Last Commit](https://img.shields.io/github/last-commit/RishabhShahIITGN/crank-rocker-mechanism)](https://github.com/RishabhShahIITGN/crank-rocker-mechanism)
 
 </div>
 
 ---
 
-## 📖 Overview
+## Overview
 
 This repository documents the complete design-to-validation pipeline for a **planar four-bar crank-rocker mechanism**, developed as part of the ME 206 (Statics and Dynamics) coursework at IIT Gandhinagar. The objective was to design a mechanism in which the input crank completes a full 360° rotation while the output rocker oscillates between fixed limits, and to rigorously predict and verify the kinematic behavior of its coupler link.
 
@@ -24,34 +22,34 @@ The core engineering question addressed here is: *how accurately can closed-form
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- ✔ Planar four-bar **crank-rocker** mechanism satisfying Grashof's Law
-- ✔ Closed-form **dimensional synthesis** for a prescribed rocker angle at a target configuration
-- ✔ Analytical **position analysis** using the diagonal (triangle-decomposition) method
-- ✔ Analytical **velocity analysis** for coupler and rocker angular velocities
-- ✔ **Coupler center-of-mass velocity** derivation and computation
-- ✔ Two standalone **MATLAB scripts** — synthesis and kinematic analysis
-- ✔ Physical **fabrication** with laser-cut MDF links, precision ball bearings, and a DC motor
-- ✔ **Tracker**-based video motion capture and digitization
-- ✔ Full **analytical vs. experimental** comparison across a 360° crank cycle
-- ✔ Detailed **error-source analysis** (phase sync, zero-crossing singularity, differentiation noise)
+- Planar four-bar **crank-rocker** mechanism satisfying Grashof's Law
+- Closed-form **dimensional synthesis** for a prescribed rocker angle at a target configuration
+- Analytical **position analysis** using the diagonal (triangle-decomposition) method
+- Analytical **velocity analysis** for coupler and rocker angular velocities
+- **Coupler center-of-mass velocity** derivation and computation
+- Two standalone **MATLAB scripts** — synthesis and kinematic analysis
+- Physical **fabrication** with laser-cut MDF links, precision ball bearings, and a DC motor
+- **Tracker**-based video motion capture and digitization
+- Full **analytical vs. experimental** comparison across a 360° crank cycle
+- Detailed **error-source analysis** (phase sync, zero-crossing singularity, differentiation noise)
 
 ---
 
-## 🎬 Demonstration
+## Demonstration
 
 <div align="center">
 
 [![Watch the mechanism in action](https://img.youtube.com/vi/C68PPp5x9YM/0.jpg)](https://www.youtube.com/shorts/C68PPp5x9YM)
 
-**▶️ [Watch the fabricated mechanism in motion](https://www.youtube.com/shorts/C68PPp5x9YM)**
+**[Watch the fabricated mechanism in motion](https://www.youtube.com/shorts/C68PPp5x9YM)**
 
 </div>
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ```
 Design Requirements
